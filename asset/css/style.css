@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Yusei+Magic&display=swap');
+
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#all
+{
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1
+{
+    padding: 10px;
+    background-color: white;
+    color: green;
+    font: bold 60px 'Yusei Magic', sans-serif;
+}
+
+table
+{
+    border: solid 5px white;
+    border-collapse: collapse;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+table td
+{
+    border: solid 5px white;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font: bold 30px 'Fontdiner Swanky', cursive;
+    cursor: pointer;
+}
+
+#start
+{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font: bold 32px 'Yusei Magic', sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+#timer
+{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 15px 32px;
+    font: bold 32px 'Yusei Magic', sans-serif;
+    margin: auto;
+}
+
+#timer button
+{
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+#timer i
+{
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    border: solid 1px black;
+}
